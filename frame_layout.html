@@ -8,20 +8,16 @@
     </head>
     
     
-        <frameset rows="80px,10%,50px">
+        <frameset rows="80px,10%,50px" framespacing="2" border="4">
             <frame src="head.html" noresize="noresize" scrolling="no">
-                <frameset cols="15%,85%">
-                    <frame src="Card-Layout/index.html">
-                    <frameset rows="70%,*">
-                        <frame src="Card-Layout/card.html">
-                            <frame src="Card-Layout/terminal.html">
+                <frameset cols="13%,87%" framespacing="2" border="4">
+                    <frame src="Card-Layout/index.html" >
+                    <frameset rows="80%,*" framespacing="2" border="4">
+                        <frame src="Card-Layout/card1.html" name="mid-col">
+                            <frame src="Card-Layout/terminal.html" >
                     </frameset>
                 </frameset>
             <frame src="bottom.html" noresize="noresize" scrolling="no">        
-        </frameset>
-
-        <frameset rows="*,80px">
-            <frame src="bottom.html" noresize="noresize" scrolling="no">
         </frameset>
 
         <input name="cookieData" type="hidden" data-cookie-customDialogSelector='null' data-cookie-colorText='#000000'
